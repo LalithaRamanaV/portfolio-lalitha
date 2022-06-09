@@ -1,12 +1,12 @@
 # DEVELOPER PORTFOLIO
 
-A portfolio website template for campers
+This is my portfolio website using HTML,CSS,Javascript
 
-![jane-doe](jane-shot.png)
+![Lalitha-Vadavalli](jane-shot.png)
 
 ## Author
 
-[@koladechris](https://www.twitter.com/koladechris)
+[@LalithaVadavalli](https://www.linkedin.com/in/lalithavadavalli/)
 
 ## Github repo
 
