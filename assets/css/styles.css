@@ -3,12 +3,12 @@
 /* Variables */
 :root {
   --font-family: "Roboto", sans-serf;
-  --normal-font: 400;
+  --normal-font: 500;
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --primary-color: #457b9d;
+  --secondary-color: #000;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -36,6 +36,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--primary-color);
+  font-size:20px;
 }
 
 a:hover {
@@ -45,4 +46,46 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+}
+/* Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav h1 {
+  color: var(--primary-color);
+}
+
+nav a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+nav a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: var(--bold-font);
+}
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
 }
