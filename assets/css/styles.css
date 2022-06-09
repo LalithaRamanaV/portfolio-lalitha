@@ -285,3 +285,15 @@ footer {
   text-align: center;
   margin: 2rem 0 0;
 }
+/* scrolls */
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
