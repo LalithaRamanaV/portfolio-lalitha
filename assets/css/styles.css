@@ -118,3 +118,18 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
+/* more about */
+.more-about {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.more-about p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}
