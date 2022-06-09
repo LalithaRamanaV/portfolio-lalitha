@@ -133,3 +133,28 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
 }
+/* skills */
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.skill-header {
+  margin-bottom: 1rem;
+}
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+.icon-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
