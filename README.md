@@ -6,7 +6,7 @@ This is my portfolio website using HTML,CSS,Javascript
 
 ## Author
 
-[@LalithaVadavalli](https://www.linkedin.com/in/lalithavadavalli/)
+[LalithaVadavalli](https://www.linkedin.com/in/lalithavadavalli/)
 
 ## Github repo
 
@@ -48,10 +48,5 @@ For the form submission, formspree was used. You can get a hands-on tutorial on 
 
 In addition to formspree, you can also use Netlify form submission in case you deploy there. Brad Traversy has a [video tutorial](https://www.youtube.com/watch?v=6ElQ689HRcY) on how to do it.
 
-If you encounter problems customizing, reach out to me by sending me a DM on my [Twitter](https://www.twitter.com/koladechris).
 
-## Acknowledgements
 
-- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
