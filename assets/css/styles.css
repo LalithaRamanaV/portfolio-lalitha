@@ -179,12 +179,16 @@ nav ul li {
 }
 .projects-container {
   display: flex;
+  column-gap: 40px;
+  margin-bottom:20px;
   align-items: center;
   justify-content: center;
+  
 }
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
+  margin:0.8rem 0;
 }
 
 .project-container {
@@ -346,6 +350,7 @@ footer {
     margin-top: -7rem;
     width: 20.5rem;
   }
+  /* more about */
   .more-about {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
@@ -394,3 +399,31 @@ footer {
     max-width: 17.75rem;
   }
 } 
+/* projects section badge */
+.badge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 0.05rem 0.4rem;
+  border-radius: 0.4rem;
+  white-space: nowrap;
+}
+.badge-1 {
+  background: #203040;
+  color: #fff;
+}
+/* project section button */
+.primary-btn {
+  text-decoration: none;
+  display: inline-block;
+  border: var(--primary-color) 0.1rem solid;
+  color: var(--primary-color);
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.primary-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
