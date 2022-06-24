@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: 'Montserrat', sans-serif;
   --normal-font: 500;
   --bold-font: 700;
   --bolder-font: 900;
@@ -81,6 +80,7 @@ nav ul {
 nav ul li {
   font-weight: var(--bold-font);
 }
+/* hamburger */
 .burger-menu {
   color: var(--primary-color);
   font-size: 2rem;
@@ -148,16 +148,16 @@ nav ul li {
 }
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 5.875rem;
+  height: 5.25rem;
 }
-.icon-card {
+/* .icon-card {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
-}
+} */
 /* projects */
 .projects {
   background-color: var(--bg-color);
@@ -169,7 +169,14 @@ nav ul li {
   width: 65%;
   height: 60%;
 }
-
+.projects-para{
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: var(--line-height);
+  padding: 0.4rem;
+  align-items: center;
+  font-size: 18px;
+}
 .projects-container {
   display: flex;
   align-items: center;
@@ -200,7 +207,7 @@ nav ul li {
 
 .project-card {
   background-color: #fff;
-  border-radius: 11px;
+  /* border-radius: 11px; */
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
@@ -247,7 +254,7 @@ nav ul li {
   padding: 0.5rem;
   color: var(--primary-color);
 }
-/* submit button */
+/* contact submit button */
 .submit-btn {
   width: 100%;
   padding: 10px;
@@ -267,16 +274,14 @@ nav ul li {
 }
 /* social icons */
 .socials {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 1%;
-  bottom: 50%;
+  padding-bottom: 20px;
+  position: relative;
+  display: table;
+  margin :0 auto;
 }
-
 .socicon {
-  width: 2rem;
-  height: 2rem;
+  height: 50px;
+  width: 50px;
 }
 /* footer */
 footer {
