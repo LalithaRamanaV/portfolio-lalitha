@@ -167,13 +167,6 @@ nav ul li {
   width: 5.875rem;
   height: 5.25rem;
 }
-/* .icon-card {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
-} */
 /* projects */
 .projects {
   background-color: var(--bg-color);
@@ -223,6 +216,7 @@ nav ul li {
 .project-container p {
   padding: 0.4rem;
   
+ 
 }
 
 .project-title {
@@ -233,8 +227,6 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
   line-height: var(--line-height);
   padding: 0.4rem;
-  /* padding: 1rem 6rem; */
-  align-items: center;
   
 }
 
@@ -244,25 +236,6 @@ nav ul li {
   padding: 20px;
   margin: 10px;
   
-}
-
-/* contact submit button */
-.submit-btn {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #fff;
-  border: 2px solid var(--primary-color);
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: var(--bold-font);
-  transition: var(--transition);
-}
-.submit-btn:hover {
-  background-color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  cursor: pointer;
-  color:#fff;
 }
 /* social icons */
 .socials {
