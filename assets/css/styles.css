@@ -215,7 +215,6 @@ nav ul li {
 /* box shadow for projects */
 .project-container p {
   padding: 0.4rem;
-  
  
 }
 
@@ -227,7 +226,10 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
   line-height: var(--line-height);
   padding: 0.4rem;
-  
+  /* text-align: left; */
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align:justify;
 }
 
 .project-card {
