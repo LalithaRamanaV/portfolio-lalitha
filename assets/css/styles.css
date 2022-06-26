@@ -202,7 +202,7 @@ nav ul li {
   margin-bottom:20px;
   align-items: center;
   justify-content: center;
-  
+ 
   
 }
 .projects-title {
@@ -233,18 +233,16 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
   line-height: var(--line-height);
   padding: 0.4rem;
-  padding: 1rem 6rem;
+  /* padding: 1rem 6rem; */
   align-items: center;
   
 }
 
 .project-card {
   background-color: #fff;
-  /* border-radius: 11px; */
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
- 
   
 }
 
