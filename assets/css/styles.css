@@ -178,11 +178,15 @@ nav ul li {
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
+  
+}
+.badges{
+  margin-top: 10px;
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 68%;
+  height: 65%;
 }
 .projects-para{
   text-align: center;
@@ -190,7 +194,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
   align-items: center;
-  font-size: 18px;
+ 
 }
 .projects-container {
   display: flex;
@@ -198,6 +202,7 @@ nav ul li {
   margin-bottom:20px;
   align-items: center;
   justify-content: center;
+  
   
 }
 .projects-title {
@@ -211,11 +216,13 @@ nav ul li {
   text-align: center;
   width: 21.875rem; 
   padding: 1rem;
+  
  
 }
 /* box shadow for projects */
 .project-container p {
   padding: 0.4rem;
+  
 }
 
 .project-title {
@@ -224,6 +231,11 @@ nav ul li {
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+  line-height: var(--line-height);
+  padding: 0.4rem;
+  padding: 1rem 6rem;
+  align-items: center;
+  
 }
 
 .project-card {
@@ -232,6 +244,7 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+ 
   
 }
 
@@ -378,15 +391,15 @@ footer {
 } 
 /* projects section badge */
 .badge {
-  font-size: 0.7rem;
+  font-size: 1rem;
   text-transform: uppercase;
   padding: 0.05rem 0.4rem;
-  border-radius: 0.4rem;
+  border-radius: 0.5rem;
   white-space: nowrap;
 }
 .badge-1 {
-  background: #203040;
-  color: #fff;
+  background:#EBECF0;
+  color: #000;
 }
 /* project section button */
 .primary-btn {
@@ -406,6 +419,30 @@ footer {
 }
 
 .primary-btn:hover {
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  color:#fff;
+  font-size: 20px;
+}
+/* project section second button */
+ .sec-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  margin: 10px 0;
+  /* margin: 0.5rem 0 0.5rem 0; */
+  background-color:#fff;
+  color:#000;
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.sec-btn:hover {
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
   cursor: pointer;
