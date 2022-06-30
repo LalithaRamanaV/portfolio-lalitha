@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,900&display=swap');
 /* Variables */
 :root {
   --font-family: 'Montserrat', sans-serif;
@@ -129,7 +130,10 @@ nav ul li {
 .bio h1 {
   margin-bottom: var(--bottom-margin);
   padding-top:30px;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight:800;
+
+  /* font-family:'Source Sans Pro, Sans-serif'; */
 }
 
 .bio p {
@@ -234,6 +238,7 @@ nav ul li {
   margin-right: 10px;
   margin-left: 10px;
   text-align:justify;
+  color: dark #808080;
 }
 
 .project-card {
@@ -375,7 +380,7 @@ footer {
   white-space: nowrap;
 }
 .badge-1 {
-  background:#EBECF0;
+  background-color:#EBECF0;
   color: #000;
 }
 /* project section button */
