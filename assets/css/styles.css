@@ -80,7 +80,7 @@ nav a {
 nav a:hover {
   color: var(--primary-color);
   border-bottom: 2px solid var(--primary-color);
-  font-size:25px;
+  font-size:20px;
 }
 
 nav ul {
