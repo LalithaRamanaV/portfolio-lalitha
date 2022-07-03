@@ -11,6 +11,7 @@
   --primary-color:#00acee;
   --primary-color:#1d3557;
   --primary-color:#3b5998;
+  --primary-color:#1484C0;
   --secondary-color: #000;
   --primary-shadow: #8b8eaf;
   --primary-shadow: #dfe3ee;
@@ -218,6 +219,7 @@ nav ul li {
   width:500px; 
   padding: 1rem;
   
+
  
 }
 /* box shadow for projects */
