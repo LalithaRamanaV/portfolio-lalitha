@@ -127,12 +127,12 @@ nav ul li {
 }
 .bio span{
   font-size:20px;
-  color:#8b8eaf;
+  color:#1484c0;
 }
 .bio h1 {
   margin-bottom: var(--bottom-margin);
   padding-top:30px;
-  font-size: 50px;
+  font-size: 25px;
   font-weight:800;
 
   /* font-family:'Source Sans Pro, Sans-serif'; */
@@ -147,6 +147,7 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+
 }
 
 .more-about h2 {
@@ -157,6 +158,8 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+  text-align:justify;
+
 }
 /* skills */
 .skills {
@@ -180,15 +183,17 @@ nav ul li {
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
-  
+  margin:0px 25px 40px 25px;
 }
 .badges{
   margin-top: 10px;
 }
 
 .project-pic {
-  width: 68%;
+  width: 100%;
   height: 65%;
+  object-fit: cover;
+  border-radius: 7px;
 }
 .projects-para{
   text-align: center;
@@ -196,7 +201,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
   align-items: center;
- 
+  
 }
 .projects-container {
   display: flex;
@@ -204,7 +209,7 @@ nav ul li {
   margin-bottom:20px;
   align-items: center;
   justify-content: center;
- 
+  
   
 }
 .projects-title {
@@ -217,10 +222,8 @@ nav ul li {
 .project-container {
   text-align: center;
   width: 21.875rem;
-  width:500px; 
+  width:385px; 
   padding: 1rem;
-  
-
  
 }
 /* box shadow for projects */
@@ -231,17 +234,27 @@ nav ul li {
 
 .project-title {
   margin-bottom: var(--bottom-margin);
+  cursor:pointer;
 }
 
 .project-details {
-  margin-bottom: var(--bottom-margin);
-  line-height: var(--line-height);
-  padding: 0.4rem;
-  /* text-align: left; */
-  margin-right: 10px;
-  margin-left: 10px;
+  /* margin-bottom: var(--bottom-margin); */
+  line-height: 24px;
+  padding: 0.75rem;
+  font-size: 16px;
+  margin-top: 15px;
   text-align:justify;
-  color: dark #808080;
+  color:  #444;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  
+  margin-block-start: 1rem;
+	margin-inline-start: 0.7rem;
+	margin-inline-end: 0.7rem;
+	padding-inline-start: 2rem;
+	padding-inline-end: 0.5rem;
 }
 
 .project-card {
@@ -350,10 +363,19 @@ footer {
   .project-container {
     width: 20.875rem;
   }
+  .project-details{
+    margin-block-start: 0.5rem;
+    margin-inline-start: 0.7rem;
+    margin-inline-end: 0.7rem;
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
+  }
+  
   /* contact */
   .contact-form-container {
     max-width: 23.75rem;
   }
+  
 }
 /* small screens */
 @media screen and (max-width: 420px) {
@@ -368,6 +390,11 @@ footer {
 
   .project-container {
     width: 17.875rem;
+  }
+
+  
+  .footer{
+    font-size: small;
   }
 
   /* .contact-form-container {
