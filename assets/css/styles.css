@@ -33,9 +33,7 @@ html {
   padding: 0;
   font-weight: 600;
   box-sizing: border-box;
-  word-spacing: 0.1rem;
-  
-  
+  /* word-spacing: 0.1rem; */
   /* border: 2px solid red; */
 }
 
@@ -69,6 +67,7 @@ nav {
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
+ 
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav h1 {
@@ -182,6 +181,7 @@ nav ul li {
 /* projects */
 .projects {
   background-color: var(--bg-color);
+  
   padding: 32px 0;
   margin:0px 25px 40px 25px;
 }
@@ -209,8 +209,8 @@ nav ul li {
   margin-bottom:20px;
   align-items: center;
   justify-content: center;
-  
-  
+ 
+  flex-wrap: wrap;
 }
 .projects-title {
   text-align: center;
@@ -224,7 +224,7 @@ nav ul li {
   width: 21.875rem;
   width:385px; 
   padding: 1rem;
- 
+  
 }
 /* box shadow for projects */
 .project-container p {
@@ -239,7 +239,7 @@ nav ul li {
 
 .project-details {
   /* margin-bottom: var(--bottom-margin); */
-  line-height: 24px;
+  line-height: 28px;
   padding: 0.75rem;
   font-size: 16px;
   margin-top: 15px;
@@ -247,7 +247,12 @@ nav ul li {
   color:  #444;
   text-overflow: ellipsis;
   display: -webkit-box;
+  /* display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start; */
   overflow: hidden;
+  font-weight:700;
   -webkit-box-orient: vertical;
   
   margin-block-start: 1rem;
@@ -259,6 +264,7 @@ nav ul li {
 
 .project-card {
   background-color: #fff;
+  border:1px  gray;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
